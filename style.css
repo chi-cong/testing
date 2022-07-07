@@ -124,8 +124,12 @@ width: 30%;
 }
 
 @media screen and (max-width:950px) {
+  body {
+    height: 100vh;
+  }
   .container {
     flex-direction: column;
+    height: 100%;
   }
   .sidebar {
     flex-direction: row;
@@ -149,6 +153,7 @@ width: 30%;
   }
   .contentSec{
     width: 100%;
+    height: calc(100% - 3rem);
   }
   .contentContainer{
     width: 100%;
