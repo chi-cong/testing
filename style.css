@@ -154,3 +154,12 @@ width: 30%;
     width: 100%;
   }
 }
+
+@media screen and (max-width: 640px){
+  .infor{
+    flex-direction: column;
+  }
+  .inforItem{
+    width: 90%;
+  }
+}
